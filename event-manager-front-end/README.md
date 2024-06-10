@@ -18,7 +18,7 @@ Esta aplicação foi desenvolvida em React com o objetivo de permitir a criaçã
 1. Clone o repositório para o seu ambiente local:
 
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/brendothierry/event-manager.git
     ```
 
 2. Navegue até o diretório do projeto:
