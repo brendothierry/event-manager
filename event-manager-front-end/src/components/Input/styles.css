@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Poppins';
+  background-color: rgb(61, 72, 134);
+}
+
+.form-container-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 50vw;
+  background-color: #ffffff;
+  border: 3px solid #e6e6e6;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 24px 32px;
+}
+
+.btn-status {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: auto;
+  align-self: center;
+}
+
+/* Adjust the input container to handle the error message positioning */
+.input-container {
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the children horizontally */
+}
+
+label {
+  margin-right:360px;
+}
+.input {
+  width: 50%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #999;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.875em;
+  position: absolute;
+  top: -30px; /* Adjust this value as necessary */
+  margin-left: -270px;
+  width: 100%;
+  text-align: center; /* Center the error text */
+}
+
+.error-text-1{
+  color: red;
+  font-size: 0.875em;
+  position: absolute;
+  top: -30px; /* Adjust this value as necessary */
+  margin-left: -230px;
+  width: 100%;
+  text-align: center; /* Center the error text */
+}
+
+/* Estilos para o primeiro DatePicker */
+.input-container.datepicker-container-1 {
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centralize os elementos horizontalmente */
+}
+
+.input-container.datepicker-container-1 .custom-datepicker {
+  width: 50%; /* Defina o tamanho desejado para o DatePicker */
+}
+
+/* Estilos para o segundo DatePicker */
+.input-container.datepicker-container-2 {
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centralize os elementos horizontalmente */
+}
+
+.input-container.datepicker-container-2 .custom-datepicker {
+  width: 70%; /* Defina o tamanho desejado para o DatePicker */
+}
+
+/* Estilos para o input dentro do DatePicker */
+.input-datepicker {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.input-datepicker:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.input-datepicker::placeholder {
+  color: #999;
+}

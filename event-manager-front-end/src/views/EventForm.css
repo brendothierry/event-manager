@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: rgb(61, 72, 134);
+}
+
+
+.form-container-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 50vw;
+    background-color: #ffffff;
+    border: 3px solid #e6e6e6;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 16px;
+    padding-bottom: 24px;
+}
+
+.form-container-status {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 25vw;
+    background-color: #ffffff;
+    border: 3px solid #e6e6e6;
+    border-radius: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50px;
+    padding: 16px;
+    right: 50px;
+}
+
+
+.btn-status {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: auto;
+    /* Move o botão para a parte inferior */
+    align-self: center;
+    /* Centraliza o botão horizontalmente */
+}

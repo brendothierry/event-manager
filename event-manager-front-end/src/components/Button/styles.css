@@ -1,0 +1,25 @@
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 180px;
+  height: 52px;
+  padding: 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 16px;
+  outline: none;
+  background: linear-gradient(to right, #6b58e2, #3e23e7);
+  color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #5038ED, #9181F4);
+}
